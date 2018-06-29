@@ -5,6 +5,7 @@
 
   &__input {
     font-size: 2rem;
+    height: 56px;
     width: calc(100% - 56px);
     color: lighten($color-primary, 10%);
     background-color: $color-white;

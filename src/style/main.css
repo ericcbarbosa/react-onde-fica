@@ -303,6 +303,7 @@ h4, h5, h6 {
   margin: auto; }
   .search-cep__input {
     font-size: 2rem;
+    height: 56px;
     width: calc(100% - 56px);
     color: #eb6273;
     background-color: #FFFFFF;
