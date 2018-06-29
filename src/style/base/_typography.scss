@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway:700');
+@import url('https://use.fontawesome.com/releases/v5.1.0/css/all.css');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-highlight;
+}
+
+h1 {
+  font-size: 4rem;
+
+  @media (max-width: $xs) {
+    font-size: 3rem;
+  }
+}
+
+h2 {
+  font-size: 2.5rem;
+
+  @media (max-width: $xs) {
+    font-size: 2rem;
+  }
+}
+
+h3 {
+  font-size: 2rem;
+
+  @media (max-width: $xs) {
+    font-size: 1.5rem;
+  }
+}
+
+p {
+  font-size: 1rem;
+}
+
+h4, h5, h6 {
+  margin-top: 0.7rem;
+  margin-bottom: 1.2rem;
+}
+
+.txt-size-6 {
+  font-size: 2.0rem;
+}
+
+.txt-size-5 {
+  font-size: 1.8rem;
+}
+
+.txt-size-4 {
+  font-size: 1.5rem;
+}
+
+.txt-size-3 {
+  font-size: 1.2rem;
+}
+
+.txt-size-2 {
+  font-size: 1.0rem;
+}
+
+.txt-size-1 {
+  font-size: 0.8rem;
+}
+
+.txt-size-0 {
+  font-size: 0.5rem;
+}
+
+.txt-upper {
+  text-transform: uppercase;
+}
+
+.txt-lower {
+  text-transform: lowercase;
+}
+
+.txt-capital {
+  text-transform: capitalize;
+}
+
+.txt-title,
+.txt-subtitle {
+  font-family: $font-highlight;
+}
+
+.txt-color-primary {
+  color: $color-primary;
+}
+
+.txt-color-secondary {
+  color: $color-secondary;
+}
+
+.txt-color-info {
+  color: $color-info;
+}
+
+.txt-color-success {
+  color: $color-success;
+}
+
+.txt-color-warning {
+  color: $color-warning;
+}
+
+.txt-color-danger {
+  color: $color-danger;
+}
+
+.txt-color-link {
+  color: $color-link;
+}
+
+.txt-color-light {
+  color: $color-light;
+}
+
+.txt-color-dark {
+  color: $color-dark;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-bold {
+  font-weight: bold;
+}
+
+.txt-font-default {
+  font-family: $font-default;
+}
+
+.txt-font-highlight {
+  font-family: $font-highlight;
+}
+
+.txt-mt-0 {
+  margin-top: 0;
+}

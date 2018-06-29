@@ -1,0 +1,23 @@
+html, body {
+  width: 100%;
+}
+
+body {
+  font-family: $font-default;
+  color: $body-txt-color;
+  background-color: $body-bg-color;
+}
+
+a {
+  color: $color-link;
+
+  &:visited {
+    color: desaturate($color-link, 30%);
+  }
+  &:hover {
+    color: saturate($color-link, 30%);
+  }
+  &:active {
+    color: saturate($color-link, 50%);
+  }
+}

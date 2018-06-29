@@ -1,0 +1,14 @@
+.logo {
+  text-align: center;
+  margin: 3rem 0;
+  color: $color-primary;
+
+  &__icon {
+    display: block;
+    margin-top: 0;
+  }
+  &__name {
+    font-size: 3.5rem;
+    margin: 1.5rem 0 0;
+  }
+}

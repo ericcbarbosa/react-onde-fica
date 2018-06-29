@@ -1,0 +1,41 @@
+// Fonts
+$font-size-html: 62.5%;
+$font-size-body: 1.6rem;
+$font-default: 'Open Sans', Arial;
+$font-highlight: 'Raleway', Arial;
+
+// dimensions
+$xl: 1400px;
+$lg: 1200px;
+$md: 1000px;
+$sm: 800px;
+$xs: 600px;
+
+// Mobile
+$ml: 480px;
+$mm: 390px;
+$ms: 320px;
+
+$max-width: $lg;
+
+// Colors
+$color-primary: #e5354b;
+$color-secondary: #8ae45e;
+$color-success: #22d75d;
+$color-info: #2b96f2;
+$color-warning: #f2da2f;
+$color-danger: #f24c42;
+$color-link: #158ff2;
+
+$color-black: #000000;
+$color-darker: #333333;
+$color-dark: #666666;
+$color-medium: #999999;
+$color-light: #acacac;
+$color-lighter: #dddddd;
+$color-white: #FFFFFF;
+
+$body-bg-color: #fff8ec;
+$body-txt-color: $color-darker;
+
+$bg-overlay: rgba(216, 216, 216, 0.7);
