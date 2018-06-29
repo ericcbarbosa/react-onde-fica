@@ -5,6 +5,6 @@ Um projeto feito com [React](https://reactjs.org), [create-react-app](https://gi
 Pode ser visualizado em https://react-onde-fica.firebaseapp.com/.
 
 Faz comunização com:
--  [Google Maps API](https://maps.googleapis.com/maps/api/geocode)
--  [ViaCep API](https://viacep.com.br/)
+* [Google Maps API](https://maps.googleapis.com/maps/api/geocode)
+* [ViaCep API](https://viacep.com.br/)
 
