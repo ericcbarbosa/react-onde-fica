@@ -299,11 +299,13 @@ h4, h5, h6 {
 
 .search-cep {
   position: relative;
+  height: 56px;
+  width: 90%;
   max-width: 350px;
   margin: auto; }
   .search-cep__input {
     font-size: 2rem;
-    height: 56px;
+    height: 100%;
     width: calc(100% - 56px);
     color: #eb6273;
     background-color: #FFFFFF;
@@ -317,7 +319,7 @@ h4, h5, h6 {
   .search-cep__button {
     font-size: 1.7rem;
     width: 56px;
-    height: 56px;
+    height: 100%;
     margin: auto;
     color: #FFFFFF;
     background-color: #e5354b;
